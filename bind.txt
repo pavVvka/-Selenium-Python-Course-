@@ -1,0 +1,5 @@
+D:\PycharmProjects\Project ATest Stepik\selenium_env\Scripts\activate.bat
+
+cd PycharmProjects\Project ATest Stepik\selenium_env\Scripts
+
+
