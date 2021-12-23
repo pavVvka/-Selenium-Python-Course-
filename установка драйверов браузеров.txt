@@ -1,0 +1,43 @@
+﻿Запускать тесты мы хотим, указывая при запуске параметр browser_name, такой командой:
+
+pytest -s -v --browser_name=firefox test_cmd.py
+
+
+
+
+
+chromedriver из урока https://stepik.org/lesson/25969/
+
+
+
+
+Скачайте последнюю версию geckodriver с сайта 
+
+https://github.com/mozilla/geckodriver/releases 
+
+и распакуйте его в папку C:\geckodriver на Windows
+
+
+
+Для более подробной инструкции по установке geckodriver смотрите 
+https://selenium-python.com/install-geckodriver. 
+
+Для Windows не забудьте добавить в системную переменную PATH папку 
+C:\geckodriver и перезапустить командную строку, чтобы путь стал доступен.
+
+
+
+
+
+Чтобы проверить правильность установки geckodriver, выполните в интерпретаторе Python команды:
+
+from selenium import webdriver
+
+# инициализируем драйвер браузера. После этой команды вы должны увидеть новое открытое окно браузера
+driver = webdriver.Firefox()
+
+driver.get("https://stepik.org/lesson/25969/step/8")
+
+
+
+

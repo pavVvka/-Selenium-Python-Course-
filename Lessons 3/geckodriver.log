@@ -1,0 +1,13 @@
+1640187205553	geckodriver	INFO	Listening on 127.0.0.1:58627
+1640187208675	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\7636~1\\AppData\\Local\\Temp\\rust_mozprofile9HhOsb"
+1640187211041	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\u041F\u0430\u0432\u0435\u043B\\AppData\\Local\\Temp\\rust_mozprofile9HhOsb\\search.json.mozlz4", (void 0)))
+1640187216508	Marionette	INFO	Listening on port 58635
+1640187217011	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://stepik.org/static/frontend-build/vendor.js?v=1640018477, line 6082: unreachable code after return statement
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 10: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1640187261989	Marionette	INFO	Stopped listening on port 58635
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
